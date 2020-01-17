@@ -1,0 +1,3 @@
+select Name From STUDENTS
+where Marks>75
+ORDER BY SUBSTR(Name, Length(Name)-2,Length(Name)), ID Asc;
